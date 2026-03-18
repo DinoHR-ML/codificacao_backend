@@ -3,7 +3,8 @@
     "express": "^5.2.1"
   },
   
-  "scripts": {"dev": "node --watch src/server.js"
+  "scripts": {"atv1": "node --watch atv-config-server/src/server.js",
+              "atv2": "node --watch atv-config-server-route-service/src/server.js"
   },
   "type": "module"
 }
