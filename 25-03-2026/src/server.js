@@ -12,5 +12,5 @@ app.use("/filme", route)
 
 
 app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta https://localhost:${PORT}`)
+  console.log(`Servidor rodando na porta http://localhost:${PORT}`)
 })
