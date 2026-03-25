@@ -1,4 +1,4 @@
-import filmes from "../config/db";
+import filmes from "../config/db.js";
 
 class FilmeService {
     getAll() {
@@ -6,6 +6,4 @@ class FilmeService {
     }
 }
 
-const filmeService = new FilmeService;
-
-export default filmeService;
+export const filmeService = new FilmeService;

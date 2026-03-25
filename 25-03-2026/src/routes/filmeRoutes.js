@@ -1,9 +1,9 @@
 import express from 'express'
-import {FilmeServices} from "../services/filmeService.js";
+import {filmeService} from "../service/filmeService.js";
 const route = express.Router()
 
 route.get("/", (req, res) => {
-    res.json(FilmeServices.getAll())
+    res.json(filmeService.getAll())
 })
 
 export default route
