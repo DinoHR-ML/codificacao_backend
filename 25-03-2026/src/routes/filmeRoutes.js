@@ -3,7 +3,7 @@ import {filmeService} from "../service/filmeService.js";
 const route = express.Router()
 
 route.get("/", (req, res) => {
-    res.json(filmeService.getAll())
+    res.json(filmeService.getById())
 })
 
 export default route
